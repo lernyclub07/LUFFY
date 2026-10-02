@@ -229,6 +229,7 @@ LUFFY/
 - [ ] **luffy/verl/verl/trainer/ppo/ray_trainer.py:667** - from remote not implemented yet
 - [ ] **luffy/verl/verl/trainer/ppo/ray_trainer.py:880** - make a canonical logger that supports various backend
 - [ ] **luffy/verl/verl/utils/checkpoint/fsdp_checkpoint_manager.py:101** - shall we remove previous ckpt every save?
+- [ ] **luffy/verl/verl/utils/checkpoint/fsdp_checkpoint_manager.py:135** - address optimizer is None
 - [ ] **luffy/verl/verl/utils/hdfs_io.py:67** - (haibin.lin):
 - [ ] **luffy/verl/verl/utils/hdfs_io.py:102** - (haibin.lin):
 - [ ] **luffy/verl/verl/utils/megatron_utils.py:202** - (sgm): check how to disable megatron timers
@@ -277,3 +278,4 @@ LUFFY/
 2. Implement the functionality
 3. Test your implementation
 4. Update this README when TODOs are completed
+
